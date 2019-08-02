@@ -1,0 +1,339 @@
+/* Start Font */
+@import url('https://fonts.googleapis.com/css?family=Farro&display=swap');
+/* End Font */
+
+
+/* Start Body*/
+body {
+    background-color: rgb(247, 247, 247);
+    color: rgb(23, 27, 36);
+    font-family: Farro, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5rem;
+    margin: 0; 
+    padding: 0;  
+}
+/* End Body*/
+
+
+/* Start Debug*/
+.bg-blue{
+    background-color: rgb(6, 8, 8);
+ }
+ .bg-red{
+     background-color: rgb(197, 165, 130);
+ }
+ /* End Debug*/
+
+
+ /* Start container*/
+.container{
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;
+}
+.container-full {
+    margin: 10px auto;
+    overflow: auto;
+    width: 100%;
+}
+/* End Container*/
+
+
+/* Start Logo*/
+.logo {
+    text-align: center;
+}
+/* End Logo*/
+
+
+/* Start Hyperlink */
+a:link,
+a:visited {
+    color: rgba(24, 24, 16, 0.822);
+    text-decoration: none;
+}
+a:hover,
+a:active {
+    color: rgb(53, 53, 51);
+    text-decoration: underline;
+}
+/* End Hyperlink */
+
+
+/* Start Menu Primer*/
+.menu-primer ul {
+    background-color: rgb(73, 128, 121);
+    border-radius: 5px;
+    box-shadow: 
+        0 3px 5px -1px rgba(0, 0, 0, .2),
+        0 6px 10px 0 rgba(0, 0, 0, .14),
+        0 1px 18px 0 rgba(0, 0, 0, .12);
+    text-align: center;
+} 
+.menu-primer li {
+    border-start-end-radius: 1px solid rgb(228, 232, 233);
+    display: inline-block;
+    margin: 0 -4px;
+}
+.menu-primer a {
+    color: antiquewhite;
+    font-size: 18px;
+    display: inline-block;
+    letter-spacing: 1.5px;
+    padding: 10px 40px;
+    text-transform: uppercase;
+}
+.menu-primer a:hover {
+    background-color: rgba(245, 245, 220, 0.822);
+    color: black;
+    text-decoration: none;
+}
+.menu-primer .active {
+    background-color: beige;
+    color: #333333;
+    text-decoration: none;
+}
+/* End Menu Primer */
+
+/* Start Heading */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+h1 {
+    font-size: 28px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 13px;
+}
+/* End Heading */
+
+/* Start Jumbotron */
+.jumbotron {
+    background-color: rgb(211, 188, 163);
+    border: 1px solid #eaecef;
+    border-radius: 5px;
+    padding: 20px 0;
+    text-align: center; 
+}
+.jumbotron h1 {
+    font-size: 32px;
+    padding: 0 20px;
+}
+.jumbotron h3 {
+    font-size: 20px;
+    padding: 0 20px;
+}
+/* End Jumbotron */
+
+/* Start Main */
+.main-home-one {
+    float: left;
+    text-align: center;
+    width: 50%;
+}
+.main-home-two {
+    float: right;
+    text-align: center;
+    width: 50%;
+}
+.main-home-one .box-isi, 
+.main-home-two .box-isi {
+    height: 190px;
+}
+/* End Main */
+
+/*Start Box*/
+.box-heading {
+    background-color: rgb(73, 128, 121);
+    color: antiquewhite;
+    border: 2px solid #f5f1f1;
+    border-radius: 6px 6px 0 0;
+    margin:0;
+    padding: 10px 20px; 
+    text-transform: uppercase;
+}
+.box-heading h4 {
+    font-size: 14px;
+    margin: 0;
+}
+/*End Box*/
+
+/*Start Box Isi*/
+.box-isi {
+    background-color:rgba(93, 129, 125, 0.445);
+    border: 1px solid #eaecef;
+    border-top: 0;
+    margin: 0;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+/* End Box Isi*/
+
+/*Start Menu sekunder*/
+.menu-sekunder {
+    background-color: rgb(211, 188, 163);
+    color: rgb(37, 68, 62);
+    border-bottom: 1px solid #d1d1cf;
+    border-top: 1px solid #d1d1cf;
+    overflow: auto;
+    padding: 10px 0;
+}
+.menu-sekunder h4 {
+    font-size: 14px;
+    margin: 0;
+    text-transform: uppercase;
+}
+.menu-sekunder ul {
+    padding: 0;
+}
+
+.menu-sekunder li {
+    list-style: disc;
+}
+.menu-sekunder li a,
+.menu-sekunder p {
+    font-size: 15px;
+}
+.menu-sekunder-one,
+.menu-sekunder-two,
+.menu-sekunder-three {
+    float: left;
+}
+.menu-sekunder-one {
+    width: 40%;
+}
+.menu-sekunder-two,
+.menu-sekunder-three {
+    width: 30%;
+}
+.menu-sekunder li img {
+    vertical-align: middle;
+}
+/*End Menu Sekunder*/
+
+/* Start Copyright */
+.copyright p {
+    font-size: 15px;
+    text-align: right;
+}
+/* End Copyright */
+
+/* Start FP-isi */
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+.snip1566 {
+  position: relative;
+  display: inline-block;
+  margin: 30px;
+  max-width: 270px;
+  width: 100%;
+  color: #bbb;
+  font-size: 16px;
+  box-shadow: none !important;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+.snip1566 *,
+.snip1566:before,
+.snip1566:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.snip1566:before,
+.snip1566:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 50%;
+  content: '';
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: -1;
+  border: 2px solid #bbb;
+  border-color: transparent #bbb;
+}
+
+.snip1566 img {
+  max-width: 100%;
+  backface-visibility: hidden;
+  vertical-align: top;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.snip1566 figcaption {
+  position: absolute;
+  top: 5px;
+  bottom: 5px;
+  left: 5px;
+  right: 5px;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  border-radius: 50%;
+}
+
+.snip1566 i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 4em;
+  z-index: 1;
+}
+
+.snip1566 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.snip1566:hover figcaption,
+.snip1566.hover figcaption {
+  opacity: 1;
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
+
+.snip1566:hover:before,
+.snip1566.hover:before,
+.snip1566:hover:after,
+.snip1566.hover:after {
+  border-width: 10px;
+}
+
+.snip1566:hover:before,
+.snip1566.hover:before {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.snip1566:hover:after,
+.snip1566.hover:after {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+/* End FP-isi */
+
