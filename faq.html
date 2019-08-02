@@ -14,6 +14,22 @@
     <!--Start CSS -->
     <link rel="stylesheet" href="Styles/style.css">
     <!--End CSS -->
+
+    <!-- WhatsHelp.io widget -->
+    <script type="text/javascript">
+        (function () {
+            var options = {
+                whatsapp: "+6285297415816", // WhatsApp number
+                call_to_action: "Message us", // Call to action
+                position: "right", // Position may be 'right' or 'left'
+            };
+            var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
+            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+            s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+        })();
+    </script>
+    <!-- /WhatsHelp.io widget -->
    
 </head>
 <body>
@@ -34,10 +50,10 @@
                 <a href="index.html" title="Home">Home</a>
             </li>
             <li>
-                <a href="catagories.html" title="Catagories">Catagories</a>
+                <a href="Product.html" title="Product">Product</a>
             </li>
             <li>
-                <a href="flatlay.html" title="Food Flat Lay">Food Flat Lay</a>
+                <a href="pemesanan.html" title="Pemesanan">Pemesanan</a>
             </li>
             <li>
                 <a href="faq.html" title="FAQ" class="active">FAQ</a>
@@ -55,38 +71,40 @@
 
     <!--Start Jumbotron-->
     <div class="container jumbotron">
-        <h1>Welcome Welcome Welcome</h1>
+        <h1>FAQ</h1>
         <h3>The taste on everyone’s lips. If it’s Popsicle, it’s possible!</h3>
     </div>
     <!--End Jumbotron-->
     
     <!--Start Pertanyaan-->
-    <h2>Pertanyaan</h2> 
-    <ol>
-        <li>
-            <a href="#01" title="What is Popsicle ?">What is Popsicle ?</a>
-        </li>
-        <li>
-            <a href="#02" title="Bagaimana Cara Pemesanan produk Popsicle ?"> Bagaimana Cara Pemesanan produk Popsicle ?</a>
-        </li>
-    </ol>
-    <hr>
-    <h2>Jawaban</h2>
-    <ol>
-        <li>
-            <h4 id="01">What is Popsicle</h4>
-            <ul>
-                <li>Silahkan lihat profile kami melalui halaman <a href="about.html" title="About US">About Us</a></li>
-            </ul>
-        </li>
-        <li>
-            <h4 id="02">Bagaimana Cara Pemesanan produk Popsicle ?</h4>
-            <ul>
-                <li>Pemesanan dapat dilakukan melalui website kami atau media WhatsApp. untuk format pemesanan dapat dilihat pada halaman <a href="Pemesanan.html" title="Pemesanan">Pemesanan</a></li>
-            </ul>
-        </li>
-    </ol>
-        <!--End Pertanyaan-->  
+    <div class="container warna">
+        <h2>Pertanyaan</h2> 
+        <ol>
+            <li>
+                <a href="#01" title="What is Popsicle ?">What is Popsicle ?</a>
+            </li>
+            <li>
+                <a href="#02" title="Bagaimana Cara Pemesanan produk Popsicle ?"> Bagaimana Cara Pemesanan produk Popsicle ?</a>
+            </li>
+        </ol>
+        <hr>
+        <h2>Jawaban</h2>
+        <ol>
+            <li>
+                <h4 id="01">What is Popsicle</h4>
+                <ul>
+                    <li>Silahkan lihat profile kami melalui halaman <a href="about.html" title="About US">About Us</a></li>
+                </ul>
+            </li>
+            <li>
+                <h4 id="02">Bagaimana Cara Pemesanan produk Popsicle ?</h4>
+                <ul>
+                    <li>Pemesanan dapat dilakukan melalui website kami atau media WhatsApp. untuk format pemesanan dapat dilihat pada halaman <a href="Pemesanan.html" title="Pemesanan">Pemesanan</a></li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+    <!--End Pertanyaan-->  
 
 
  
