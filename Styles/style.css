@@ -5,7 +5,7 @@
 
 /* Start Body*/
 body {
-    background-color: rgb(247, 247, 247);
+    background-color: rgb(59, 68, 80);
     color: rgb(23, 27, 36);
     font-family: Farro, Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -18,7 +18,7 @@ body {
 
 /* Start Debug*/
 .bg-blue{
-    background-color: rgb(6, 8, 8);
+    background-color: rgb(33, 48, 48);
  }
  .bg-red{
      background-color: rgb(197, 165, 130);
@@ -37,6 +37,10 @@ body {
     overflow: auto;
     width: 100%;
 }
+.warna {
+    color: antiquewhite;
+    
+}
 /* End Container*/
 
 
@@ -50,12 +54,12 @@ body {
 /* Start Hyperlink */
 a:link,
 a:visited {
-    color: rgba(24, 24, 16, 0.822);
+    color: rgba(131, 131, 105, 0.822);
     text-decoration: none;
 }
 a:hover,
 a:active {
-    color: rgb(53, 53, 51);
+    color: rgb(143, 143, 132);
     text-decoration: underline;
 }
 /* End Hyperlink */
@@ -66,8 +70,8 @@ a:active {
     background-color: rgb(73, 128, 121);
     border-radius: 5px;
     box-shadow: 
-        0 3px 5px -1px rgba(0, 0, 0, .2),
-        0 6px 10px 0 rgba(0, 0, 0, .14),
+        3px 3px 5px -1px rgba(0, 0, 0, .2),
+        0 10px 10px 0 rgba(0, 0, 0, .14),
         0 1px 18px 0 rgba(0, 0, 0, .12);
     text-align: center;
 } 
@@ -128,6 +132,10 @@ h6 {
     border-radius: 5px;
     padding: 20px 0;
     text-align: center; 
+    box-shadow: 
+    3px 3px 5px -1px rgba(0, 0, 0, .2),
+    0 10px 10px 0 rgba(0, 0, 0, .14),
+    0 1px 18px 0 rgba(0, 0, 0, .12);
 }
 .jumbotron h1 {
     font-size: 32px;
@@ -232,13 +240,13 @@ h6 {
 }
 /* End Copyright */
 
-/* Start FP-isi */
+/* Start First Page */
 @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
 .snip1566 {
   position: relative;
   display: inline-block;
   margin: 30px;
-  max-width: 270px;
+  max-width: 300px;
   width: 100%;
   color: #bbb;
   font-size: 16px;
@@ -335,5 +343,20 @@ h6 {
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
-/* End FP-isi */
+/* End First Page */
+
+
+
+/* Start Judul */
+.img {
+    text-align: center;
+    color: antiquewhite;
+    text-decoration: underline;
+}
+/* End Judul */
+
+
+
+
+
 
